@@ -79,6 +79,10 @@ public class dataType {
         /**
          * Signed left shift = <<
          * Syntax : left_operand << number
+         * [a<<b ==>a * 2^b] eg. 2<<4 ==> 2* 2^4 ==>32
+         * Signed Right Shift = >>
+         * Syntax : right_operand >> number
+         * [a>>b ==> a/2^b]
          * **/
         byte number = 2;
         int  lshift = number <<2;
@@ -89,6 +93,7 @@ public class dataType {
 
 
         // Unsigned Right shift and Unsigned Left shift
+
 
 
 
